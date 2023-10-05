@@ -1,4 +1,11 @@
-function Button({ label, iconURL, backgroundColor, borderColor, textColor }) {
+function Button({
+  label,
+  iconURL,
+  backgroundColor,
+  borderColor,
+  textColor,
+  fullWidth,
+}) {
   return (
     <button
       className={`flex justify-center rounded-full items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
